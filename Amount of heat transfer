@@ -1,0 +1,7 @@
+def heat_transfer():
+    m = eval(input('Please enter mass in kg'))
+    c = eval(input('Please enter specific heat in kj/kgK'))
+    T2 = eval(input('Please enter final temperature in Kelvin'))
+    T1 = eval(input('Please enter initial temperature in Kelvin'))
+    Q = m*c*(T2 - T1)
+    print(Q,'kj')
