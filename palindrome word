@@ -1,0 +1,6 @@
+def palindrom_word():
+    word = str(input('Please entera word'))
+    if word == word[::-1]:
+        print('{} is a Palindrom word'.format(word))
+    else:
+        print('{} is a Non Palindrom word'.format(word))
